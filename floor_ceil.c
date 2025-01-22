@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	float a;
+	float b,c;
+	scanf("%f",&a);
+	b=floor(a);
+	c=ceil(a);
+	printf("the floor value and ceil value respectively is=%f%f",b,c);
+	return 0;
+}
+
